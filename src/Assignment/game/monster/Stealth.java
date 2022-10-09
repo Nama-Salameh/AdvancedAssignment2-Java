@@ -1,9 +1,11 @@
 package Assignment.game.monster;
-import Assignment.game.monster.MonsterTypes;
 
-public class Stealth implements MonsterTypes{
+import Assignment.game.methods.EntityRender;
+
+public class Stealth  extends monster implements EntityRender {
+
     @Override
     public void render(){
-        System.out.println("I am a stealth monster");
+        System.out.println("render in stealth monster");
     }
 }

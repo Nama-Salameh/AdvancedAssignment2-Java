@@ -14,5 +14,4 @@ public class Entity {
         types = new ArrayList<>();
     }
 
-    Types t = new Types();
 }
